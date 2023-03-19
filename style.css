@@ -1,0 +1,117 @@
+body {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                font-family: Arial, sans-serif;
+}
+
+header {
+                height: 100px;
+                background-color: #034694;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+}
+footer {
+                height: 50px;
+                background-color: #034694;
+                color: white;
+                text-align: center;
+                justify-content: space-between;
+                padding: 5px;
+        }
+
+nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+}
+
+nav li {
+                margin-right: 12px;
+}
+
+nav a {
+                color: white;
+                text-decoration: none;
+}
+
+nav a:hover {
+                text-decoration: underline;
+}
+
+main {
+                padding: 10px;
+}
+
+section {
+                margin-bottom: 30px;
+}
+
+h1, h2 {
+                text-align: center;
+}
+
+h2 {
+                margin-bottom: 10px;
+}
+
+ul {
+                list-style-type: disc;
+                margin-left: 20px;
+}
+
+img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+}
+
+.column{
+                float:left;
+                width: 33.3%;
+}
+.row:after {
+                content: "";
+                display: table;
+                clear: both;
+}
+@media only screen and (max-width:800px) {
+        .column {
+                width: 100%;
+        }
+     .players{
+        height: 100%;
+        background-color: white;
+        padding: 5px;
+        }
+}
+.centered-link{
+        display: block;
+        text-align: center;
+}
+.players{
+        height: 400px;
+        background-color: white;
+        padding: 5px;
+}
+.news{
+        text-align: center;
+        height: 400px;
+        background-color: blue;
+        padding: 5px;
+}
+.read-more{
+        color: white;
+        text-decoration: none;
+}
+.read-more:hover{
+        text-decoration: underline;
+}
